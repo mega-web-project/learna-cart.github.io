@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="../../fonts/css/all.min.css">
     <link rel="stylesheet" href="../../fonts/css/fontawesome.min.css">
     <!--navigation styles--->
-    <link href="../css/navbar.css" rel="stylesheet">
-    <link href="../css/carousel_search.css" rel="stylesheet">
+    
+     <link href="../css/navs.css" rel="stylesheet">
+    <link href="../css/carouselSearch.css" rel="stylesheet">
     <title>LearnaCart | Course page</title>
   </head>
   <body>
@@ -27,7 +28,7 @@
 		<li><a href="#categories">Categories <i class="fas fa-book"></i></a></li>
 		<li><a href="#help">Help <i class="fas fa-question-circle"></i></a></li>
     <!--search bar-->
-		<li><a href="#projects">
+		<li><a href="#projects" id="form">
     <form class="d-flex search-box">
         <input class="form-control me-2 search-input" type="search" placeholder="Search" aria-label="Search" autocomplete="off">
         <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
@@ -48,12 +49,12 @@
       <div class="container">
         <div class="row">
           <div class="col-10 mx-auto">
-            <form action="">
+            <form action="#">
               <div>
                 <div class="input-group">
                     <input type="search" class="form-control" placeholder="search">
                     <div class="input-group-append">
-                    <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+                    <button class="btn btn-outline-success" type="submit" name="search"><i class="fas fa-search"></i></button>
                     </div>
                 </div>
               </div>
@@ -73,7 +74,7 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../images/AUDIO NOTE__stream.jpg" class="d-block w-100" alt="...">
+      <img src="../images/account.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
