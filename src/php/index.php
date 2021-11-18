@@ -167,6 +167,9 @@
 
 
 <div class="row courses">
+  <div class="course-title">
+    <h4>More <span class="text-danger">Courses</span></h4>
+  </div>
   <div class="col-md-3 col-sm-6 my-4">
     <div class="card text-center">
     <span class="position-absolute top-5 start-50 translate-middle badge rounded-pill bg-danger">
