@@ -1,15 +1,36 @@
-.card img {
-    height: 120px;
+
+body{
+    overflow-x: hidden;
+    width: 100vw;
+}
+.container{
+    margin-top:0px;
+}
+.owl-carousel .card img{
+    height:20vh;
+    object-fit: cover;
 }
 
-.card {
-    width: 300px;
+.owl-prev{
+    left: -25px;
+}
+.owl-next{
+    right: -25px;
 }
 
-.card-3 {
-    height: 285px;
+.owl-prev, .owl-next{
+    position:absolute;
+    top:50px;
 }
 
-.row-1 {
-    padding: 25px;
+.owl-prev span, .owl-next span{
+    font-size: 80px;
+    color: black;
+}
+
+
+
+.courses img{
+    height:25vh;
+    object-fit: cover;
 }
