@@ -19,6 +19,9 @@
     <!--css/owl-carousel-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--footer link.css-->
+    <link href="../css/footer.css" rel="stylesheet">
+    
     <title>LearnaCart | Course page</title>
   </head>
   <body>
@@ -116,50 +119,56 @@
 <h2 class="owl-card-title text-center fw-bold display-5">New <span class="text-danger">Course</span></h2>
 <div class="owl-carousel owl-theme">
   <div class="ms-2 me-2">
-    <div class="card">
+    <div class="card text-center">
      <img data-src="../images/account.jpg" alt="account" class="owl-lazy">
      <div class="card-body">
        <h5 clas="card-title">Course Title</h5>
        <p>Your Description here</p>
+       <a href="#" class="btn btn-success">View Course</a>
       </div>
+
     </div>
     </div>
     
     <div class="ms-2 me-2">
-    <div class="card">
+    <div class="card text-center">
      <img data-src="../images/curriculum.jpg" alt="account" class="owl-lazy">
      <div class="card-body">
        <h5 clas="card-title">Course Title</h5>
        <p>Your Description here</p>
+       <a href="#" class="btn btn-success">View Course</a>
       </div>
     </div>
     </div>
 
     <div class="ms-2 me-2">
-    <div class="card">
+    <div class="card text-center">
      <img data-src="../images/java.jpg" alt="account" class="owl-lazy">
      <div class="card-body">
        <h5 clas="card-title">Course Title</h5>
        <p>Your Description here</p>
+       <a href="#" class="btn btn-success">View Course</a>
       </div>
     </div>
     </div>
   
     <div class="ms-2 me-2">
-    <div class="card">
+    <div class="card text-center">
      <img data-src="../images/data.jpg" alt="account" class="owl-lazy">
      <div class="card-body">
        <h5 clas="card-title">Course Title</h5>
        <p>Your Description here</p>
+       <a href="#" class="btn btn-success">View Course</a>
       </div>
     </div>
     </div>
     <div class="ms-2 me-2">
-    <div class="card">
+    <div class="card text-center">
      <img data-src="../images/arch.jpg" alt="account" class="owl-lazy">
      <div class="card-body">
        <h5 clas="card-title">Course Title</h5>
        <p>Your Description here</p>
+       <a href="#" class="btn btn-success">View Course</a>
       </div>
     </div>
     </div>
@@ -309,12 +318,67 @@
       </div>
     </div>
   </div> 
+  <div class="more">
+    <a href="#" class="btn btn-outline-success text-center">More Courses</a>
+  </div>
 </div>
 </div>
 
 <!--card carousel end here-->
+
+<a href="#" id="scroll" style="display: none;"><span></span></a>
     <!--1st row Cards placed here-->
    
+    <!--footer -->
+
+
+    <footer class="footer-ditributed">
+        <div class="footer-left">
+            <img src="../images/AUDIO NOTE__stream.jpg" alt="logo">
+            <h3>About <span>LearnaCart</span></h3>
+            <p class="footer-links">
+                <a href="#">Home</a>
+                <a href="#">Blog</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </p>
+            <p class="footer-company-name">&copy;2021 LearnaCart</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>200-Apartment, Bldg. NO. A-1, Sector-1</span>Wagholi,Pune</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+91 1122334455</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="#">support@learnaCart.com</a></p>
+            </div>
+        </div>
+        
+        <div class="footer-right">
+            <p class="footer-commpany-about">
+                <span>About Company</span>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Autem facilis ratione magnam. Reprehenderit quae perferendis 
+                numquam officiis in ea laudantium veritatis sequi, repellat, 
+                unde magnam impedit voluptatem natus qui harum. Lorem ipsum dolor 
+                sit amet consectetur adipisicing elit. Praesentium, quis.
+            </p>
+            <div class="footer-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></i></a>
+            </div>
+        </div>
+    </footer>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
