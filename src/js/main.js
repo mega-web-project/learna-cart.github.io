@@ -1,3 +1,5 @@
+
+
 $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
        autoplay:true,
@@ -46,7 +48,44 @@ $(document).ready(function(){
         $("html, body").animate({ scrollTop: 0 }, 600); 
         return false; 
     }); 
+
+
+
+//search  bar
+
+var submitIcon = $('.sb-icon-search');
+var submitInput = $('.sb-search-input');
+var searchBox = $('.sb-search');
+var isOpen = false;
+
+$(document).mouseup(function(){
+    if(isOpen == true){
+    submitInput.val('');
+    $('.sb-search-submit').css('z-index','-999');
+    submitIcon.click();
+    }
+});
+
+submitIcon.mouseup(function(){
+    return false;
+});
+
+searchBox.mouseup(function(){
+    return false;
+});
+        
+submitIcon.click(function(){
+    if(isOpen == false){
+        searchBox.addClass('sb-search-open');
+        isOpen = true;
+    } else {
+        searchBox.removeClass('sb-search-open');
+        isOpen = false;
+    }
+});
+
 })
 
 /*goto top js*/
+
 

@@ -1,77 +1,8 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../../css/bootstrap.css">
-    <script src="../../js/bootstrap.js"></script>
-    <!--fonts awesome-->
-    <link rel="stylesheet" href="../../fonts/css/all.min.css">
-    <link rel="stylesheet" href="../../fonts/css/fontawesome.min.css">
-    <!--navigation styles--->
-     <link href="../css/navs.css" rel="stylesheet">
-    <link href="../css/carouselSearch.css" rel="stylesheet">
-    <link href="../css/index.css" rel="stylesheet">
-
-    <!--css/owl-carousel-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!--footer link.css-->
-    <link href="../css/footer.css" rel="stylesheet">
-    
-    <title>LearnaCart | Course page</title>
-  </head>
-  <body>
-    <!--navigation bar-->
-    <nav>
-	<input id="nav-toggle" type="checkbox">
-	<div class="logo">
-    <img src="../logo/logo.png" alt="logo">
-  </div>
-	<ul class="links">
-		<li><a href="#categories">Categories <i class="fas fa-book"></i></a></li>
-		<li><a href="#help">Help <i class="fas fa-question-circle"></i></a></li>
-    <!--search bar-->
-		<li><a href="#projects" id="form">
-    <form class="d-flex search-box">
-        <input class="form-control me-2 search-input" type="search" placeholder="Search" aria-label="Search" autocomplete="off">
-        <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
-      </form>
-    </a</li>
-    <!--search bar end here-->
-		<li><a href="#Login">Login <i class="fas fa-sign-in-alt"></i></a></li>
-	</ul>
-	<label for="nav-toggle" class="icon-burger">
-		<div class="line"></div>
-		<div class="line"></div>
-		<div class="line"></div>
-	</label>
-</nav>
+<!-- including navigation bar to the page -->
+<?php include 'header.php' ?>
     <!--navigation ends here-->
-  <!--search bar-->
-  <section class="search-bar">
-      <div class="container">
-        <div class="row">
-          <div class="col-10 mx-auto">
-            <form action="#">
-              <div>
-                <div class="input-group">
-                    <input type="search" class="form-control" placeholder="search">
-                    <div class="input-group-append">
-                    <button class="btn btn-outline-success" type="submit" name="search"><i class="fas fa-search"></i></button>
-                    </div>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>    
-  </section>
-  <!--search bar-->
 
+ 
 <!--Caption Carousel-->
 <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
   <div class="carousel-indicators">
@@ -111,11 +42,20 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-<!--Caption carousel ends here-->
 
+<!--Caption carousel ends here-->
+<!--search bar here...-->
+<div id="sb-search" class="sb-search" >
+    <form>
+        <input class="sb-search-input " onkeyup="buttonUp();" placeholder="Enter your search term..." onblur="monkey();" type="search" value="" name="search" id="search">
+        <input class="sb-search-submit" type="submit"  value="">
+        <span class="sb-icon-search"><i class="fa fa-search"></i></span>
+    </form>
+</div>
+<!--search bar ends here-->
 
 <!--card carousel-->
-<div class="container">
+<div class="container owl-container">
 <h2 class="owl-card-title text-center fw-bold display-5">New <span class="text-danger">Course</span></h2>
 <div class="owl-carousel owl-theme">
   <div class="ms-2 me-2">
@@ -325,74 +265,10 @@
 </div>
 
 <!--card carousel end here-->
-
+<!--scroll up button link-->
 <a href="#" id="scroll" style="display: none;"><span></span></a>
     <!--1st row Cards placed here-->
    
     <!--footer -->
-
-
-    <footer class="footer-ditributed">
-        <div class="footer-left">
-            <img src="../images/AUDIO NOTE__stream.jpg" alt="logo">
-            <h3>About <span>LearnaCart</span></h3>
-            <p class="footer-links">
-                <a href="#">Home</a>
-                <a href="#">Blog</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-            </p>
-            <p class="footer-company-name">&copy;2021 LearnaCart</p>
-        </div>
-
-        <div class="footer-center">
-            <div>
-                <i class="fa fa-map-marker"></i>
-                <p><span>200-Apartment, Bldg. NO. A-1, Sector-1</span>Wagholi,Pune</p>
-            </div>
-
-            <div>
-                <i class="fa fa-phone"></i>
-                <p>+91 1122334455</p>
-            </div>
-
-            <div>
-                <i class="fa fa-envelope"></i>
-                <p><a href="#">support@learnaCart.com</a></p>
-            </div>
-        </div>
-        
-        <div class="footer-right">
-            <p class="footer-commpany-about">
-                <span>About Company</span>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Autem facilis ratione magnam. Reprehenderit quae perferendis 
-                numquam officiis in ea laudantium veritatis sequi, repellat, 
-                unde magnam impedit voluptatem natus qui harum. Lorem ipsum dolor 
-                sit amet consectetur adipisicing elit. Praesentium, quis.
-            </p>
-            <div class="footer-icons">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-github"></i></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></i></a>
-            </div>
-        </div>
-    </footer>
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
-    <script src="../js/jquery.js"></script>
-    <script src="../js/main.js"></script>
-  <!--owl carousel js cdn-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  </script>
-  </body>
-</html>
+  <!-- including footer to the page -->
+<?php include 'footer.php'?>

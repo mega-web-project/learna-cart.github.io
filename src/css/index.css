@@ -4,7 +4,7 @@ body{
     width: 100vw;
 }
 .container{
-    margin-top:0px;
+    margin-top:0x;
 }
 .owl-carousel .card img{
     height:20vh;
@@ -99,13 +99,14 @@ body{
     filter:"alpha(opacity=100)";
     -ms-filter:"alpha(opacity=100)";
 }
-  
+
+
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2){
       .container{
-          margin-top: 15px;
+          margin-top:15px;
       }
      .container .courses{
          margin-top: 15px;
