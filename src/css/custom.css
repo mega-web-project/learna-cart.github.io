@@ -1,0 +1,139 @@
+html,body{
+	line-height: 1.8;
+	color: #222;
+	font-size: 15px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight:600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+a{
+	font-weight: 700;
+	transition: all 0.45 ease;
+}
+img{
+	width: 100%;
+}
+small{
+	font-size: 12px;
+	letter-spacing: 2px;
+	font-weight: 700;
+}
+
+section{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.navbar{
+	border-bottom: 1px solid rgba(0, 0, 0, 1);
+
+}
+
+.navbar .nav-link{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+
+.navbar .nav-link.active{
+     color: white  ;
+}
+#home{
+	min-height:40vh;
+	background-size: cover;
+	background-position: center;
+	background: linear-gradient(#11245A,rgb(22, 36, 90),rgba(20, 14, 0, 1.0));
+	display: flex;
+	align-items: center;
+
+}
+
+#home h1{
+	font-weight:600;
+	font-size:30px;
+}
+
+#home p{
+	max-width: 550px;
+	margin: auto;
+}
+
+
+.btn-brand{
+   font-weight: 700;
+   font-size: 12px;
+   padding: 12px;
+   border-radius:0;
+   text-transform: uppercase;
+   background-color: #E95881;
+   color: #fff;
+}
+.btn-brand:hover{
+	background-color:#E95881;
+	color: #fff;
+}
+
+.bg-primary{
+	background-color: #2E315E;
+}
+.search-box{
+	width:40%;
+	border-radius:0;
+	border: none;
+	background-color:#fff;
+	border: 1px solid blue;
+	box-shadow: none;
+	outline: none;
+}
+
+.btn-dark{
+	padding:10px;
+	border-radius: 0px;
+	 outline: none;
+	box-shadow: none;
+}
+
+
+/*media query for all screen '''''''
+/* Portrait and Landscape */
+
+
+@media screen and (max-width: 768px) {
+
+
+	nav .nav-link{
+		top: 100px;
+		z-index: 10px;
+		padding:20px;
+		margin: 10px;
+		margin-top:25px;
+		align-items: center;
+		text-align: center;
+		transition: all .5s ease-in-out;
+		border-radius:20px;
+		margin-left:-3px;
+	 font-weight: 700;
+   font-size:1.4em;
+   padding: 12px;
+   border-radius:0;
+   text-transform: uppercase;
+   background-color:#52898E;
+   color: #fff;
+
+	}
+	}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2){
+  	.search-box{
+  		width: 100%;
+  	}
+
+  	.btn-dark{
+	padding:5px;
+	border-radius:0px;
+}
+  }
