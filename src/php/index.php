@@ -383,7 +383,7 @@
 </footer>
 
 <!---go back to top-->
-<a href="#" id="scroll" style="display: none;"><span></span></a>
+<a href="#" id="scroll" style="display: none;" class="d-none d-sm-block"><span></span></a>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
