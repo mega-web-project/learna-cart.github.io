@@ -20,7 +20,7 @@
    <link rel="stylesheet" href="../../css/owl.carousel.css">
       <link rel="stylesheet" href="../../css/owl.carousel.min.css">
       <link rel="stylesheet" href="../../css/owl.theme.min.css">
-    <title>Hello, world!</title>
+    <title>LearnaCart | page</title>
     </style>
   </head>
   <body data-bs-spy="scroll" data-bs-target=".navbar">
