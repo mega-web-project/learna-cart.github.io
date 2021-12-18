@@ -281,4 +281,10 @@
 </div>
 </div>
 
-<?php include "footer.php"?>
+  <div class="text-center justify-content-center mb-0 mt-0">
+    <a href="#" class="Prev btn btn-brands">&laquo; Prev</a>
+     <a href="#" class="Next btn btn-brand">Next &raquo;</a>
+  </div>
+  
+
+<?php include 'footer.php'?>

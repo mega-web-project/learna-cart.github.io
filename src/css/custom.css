@@ -1,7 +1,8 @@
 html,body{
 	line-height: 1.8;
-	color: #222;
+	color:red;
 	font-size: 15px;
+
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -70,6 +71,7 @@ section{
    background-color: #E95881;
    color: #fff;
 }
+
 .btn-brand:hover{
 	background-color:#E95881;
 	color: #fff;
@@ -138,3 +140,4 @@ section{
 }
 
 }
+

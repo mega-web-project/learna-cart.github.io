@@ -3,7 +3,7 @@
  <section id="home" class="justify-content-center">
   <div class="container">
     <div class="row text-white">
-    <section class="grid grid--gap10 pt-0 pb-0 border justify-content-md-evenly">
+    <section class="grid grid--gap10 pt-0 pb-0 border">
    <div class="cols grid__col4">
 
   <div class="card bg-white text-dark" data-bs-toggle="modal" data-bs-target="#MP4" data-bs-whatever="@mdo">
@@ -133,7 +133,7 @@
   </tbody>
 </table>
       <div class="mb-3 text-center">
-        <a href="#" class="text-success">Download  <i class="fas fa-file-download text-danger"></i></a>
+        <a href="#" class="text-success ">Download Zip <i class="fas fa-file-download text-danger"></i></a>
       </div>
        </div>
       </div>
@@ -182,7 +182,7 @@
   </tbody>
 </table>
       <div class="mb-3 text-center">
-        <a href="#" class="text-success">Download  <i class="fas fa-file-download text-danger"></i></a>
+        <a href="#" class="text-success ">Download Zip <i class="fas fa-file-download text-danger"></i></a>
       </div>
        </div>
       </div>
@@ -230,7 +230,7 @@
   </tbody>
 </table>
       <div class="mb-3 text-center">
-        <a href="#" class="text-success">Download  <i class="fas fa-file-download text-danger"></i></a>
+        <a href="#" class="text-success ">Download Zip <i class="fas fa-file-download text-danger"></i></a>
       </div>
        </div>
       </div>
@@ -278,7 +278,7 @@
   </tbody>
 </table>
       <div class="mb-3 text-center">
-        <a href="#" class="text-success">Download  <i class="fas fa-file-download text-danger"></i></a>
+        <a href="#" class="text-success ">Download Zip <i class="fas fa-file-download text-danger"></i></a>
       </div>
        </div>
       </div>
@@ -326,7 +326,7 @@
   </tbody>
 </table>
       <div class="mb-3 text-center">
-        <a href="#" class="text-success">Download  <i class="fas fa-file-download text-danger"></i></a>
+        <a href="#" class="text-success ">Download Zip <i class="fas fa-file-download text-danger"></i></a>
       </div>
        </div>
       </div>
@@ -339,6 +339,28 @@
 
 </section>
 
+
+<section>
+  
+
+<div class="container py-0">
+  <div class="row">
+    <div class="col-md-2">
+      <button id="navButton" class="button-menu">
+        <div hidden class="close-btn">X</div>
+        <div class="hurmburger-menu">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </button>
+    </div>
+    <div class="col-md-8">main</div>
+    <div class="col-md-2">right</div>
+  </div>
+</div>
+
+</section>
 
 
 

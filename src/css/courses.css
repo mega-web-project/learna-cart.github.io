@@ -57,3 +57,13 @@
 	grid-column: span 4;
 }
 }
+
+
+.button-menu{
+	position: fixed;
+	right: 25px;
+	bottom: 25px;
+	border: none;
+	outline: none;
+}
+

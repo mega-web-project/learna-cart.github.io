@@ -123,3 +123,12 @@ html,body{
     bottom: 0;
 }
 
+.btn-brands{
+   font-weight: 700;
+   font-size:12px;
+   padding: 12px;
+   border-radius:0;
+   text-transform: uppercase;
+   background-color: #E95881;
+   color: #fff;
+}
